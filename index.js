@@ -144,6 +144,7 @@ const fundedGames = GAMES_JSON.filter( (game) => {
     return game.goal < game.pledged
 }).length
 
+// 2. how many games currently remain unfunded
 
 // create a new DOM element containing the template string and append it to the description container
 const fundedAndUnfundedGamesOutput = `
