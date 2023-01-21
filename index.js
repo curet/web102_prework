@@ -139,6 +139,10 @@ const totalRaised = GAMES_JSON.reduce( (acc, val) => {
     return acc + val.pledged
 },0);
 
+// 1.2. for how many games
+const fundedGames = GAMES_JSON.filter( (game) => {
+    return game.goal < game.pledged
+}).length
 
 
 // create a new DOM element containing the template string and append it to the description container
