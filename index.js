@@ -158,3 +158,7 @@ const firstPosition = document.getElementById("first-game");
 firstPosition.append(topFundedGame)
 
 // do the same for the runner up item
+const runnerUp = document.createElement("p");
+runnerUp.innerHTML = secondGame.name;
+const secondPosition = document.getElementById("second-game");
+secondPosition.append(runnerUp)
