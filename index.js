@@ -150,6 +150,9 @@ const fundedAndUnfundedGamesOutput = `
     A total of $${totalRaised.toLocaleString("en-US")} has been raised for ${fundedGames} ${fundedGames > 1 ? "games" : "game"}. Currently, ${unfundedGames} ${unfundedGames > 1 ? "games" : "game"}
 remain unfunded. We need your help to fund these amazing games!
 `
+const paragraph = document.createElement("p");
+paragraph.innerHTML = fundedAndUnfundedGamesOutput
+descriptionContainer.append(paragraph)
 
 /************************************************************************************
  * Challenge 7: Select & display the top 2 games
