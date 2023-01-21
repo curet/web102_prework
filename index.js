@@ -146,6 +146,10 @@ const fundedGames = GAMES_JSON.filter( (game) => {
 
 
 // create a new DOM element containing the template string and append it to the description container
+const fundedAndUnfundedGamesOutput = `
+    A total of $${totalRaised.toLocaleString("en-US")} has been raised for ${fundedGames} ${fundedGames > 1 ? "games" : "game"}. Currently, ${unfundedGames} ${unfundedGames > 1 ? "games" : "game"}
+remain unfunded. We need your help to fund these amazing games!
+`
 
 /************************************************************************************
  * Challenge 7: Select & display the top 2 games
