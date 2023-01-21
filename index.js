@@ -134,6 +134,11 @@ const unfundedGames = GAMES_JSON.filter( (game) => {
 }).length
 
 // create a string that explains the number of unfunded games using the ternary operator
+// 1. how much money has been raised
+const totalRaised = GAMES_JSON.reduce( (acc, val) => {
+    return acc + val.pledged
+},0);
+
 
 
 // create a new DOM element containing the template string and append it to the description container
