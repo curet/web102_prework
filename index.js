@@ -153,3 +153,80 @@ const sortedGames =  GAMES_JSON.sort( (item1, item2) => {
 // create a new element to hold the name of the top pledge game, then append it to the correct element
 
 // do the same for the runner up item
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************************************************************************
+ * Extra: Add additional features and enhancements to the website
+ * Skills used: filter, input, search
+ */
+
+// 1. id = search-card 
+// 2. filter cards based on input search
+// 3. show card based what was input using event type 'input'
+
+function searchCardGame() {
+
+    var input = document.getElementById('search-input')
+    input.addEventListener('input', function() {
+        var searchWords = this.value.toLowerCase();
+        var filterGames = GAMES_JSON.filter(game => {
+            return game.name.toLowerCase().includes(searchWords);
+        });
+        deleteChildElements(gamesContainer);
+        addGamesToPage(filterGames)
+    });
+}
+
+searchCardGame()
