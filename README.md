@@ -23,10 +23,18 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
+### Walkthrough
+![Kapture 2023-01-21 at 22 12 07](https://user-images.githubusercontent.com/45988719/213897723-cf8bfa7c-3319-48f5-9d91-df9dbd47c2ff.gif)
+
+
+### Search for games
+![Kapture 2023-01-21 at 22 20 41](https://user-images.githubusercontent.com/45988719/213897727-920d4430-bd25-4292-8bc8-624416106366.gif)
+
+
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with [Kap](https://getkap.co/) for macOS 
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
