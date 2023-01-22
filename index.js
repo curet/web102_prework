@@ -203,3 +203,7 @@ const runnerUp = document.createElement("p");
 runnerUp.innerHTML = secondGame.name;
 const secondPosition = document.getElementById("second-game");
 secondPosition.append(runnerUp)
+
+
+
+
