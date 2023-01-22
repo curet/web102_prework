@@ -79,6 +79,8 @@ button {
     margin: 1%;
     border-radius: 7px;
 }    background-color: black;
+input {
+    background-color: black;
     border-radius: 10px;
     border: none;
     padding: 0.5em;
