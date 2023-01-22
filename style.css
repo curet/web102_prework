@@ -26,16 +26,17 @@ body {
 
 .stats-container:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px rgb(161, 24, 145);
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: #1b2129;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
     width: 100%;
     text-align: center;
+    border: 1px solid rgba(68, 68, 68, 0.5);
 }
 
 #num-contributions, #total-raised, #num-games {
