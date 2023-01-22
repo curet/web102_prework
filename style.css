@@ -55,12 +55,13 @@ body {
 }
 
 .game-card {
-    background-color: #FFFFFF;
+    background-color: #1b2129;
     padding: 1%;
     margin: 1%;
     width: 300px;
     text-align: center;
     border-radius: 7px;
+    border: 1px solid rgba(68, 68, 68, 0.5);
 }
 
 .game-card:hover {
