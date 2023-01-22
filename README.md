@@ -6,6 +6,9 @@ Submitted by: **José C.S. Curet**
 
 Time spent: **12** hours spent in total
 
+<img width="1200" alt="image" src="https://user-images.githubusercontent.com/45988719/213897812-5125b159-333b-4d79-8021-e56bcf71e452.png">
+
+
 ## Required Features
 
 The following **required** functionality is completed:
