@@ -78,4 +78,16 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}    background-color: black;
+    border-radius: 10px;
+    border: none;
+    padding: 0.5em;
+    font-size: 1em;
+    color:white;
+    padding-left:2em;
+    background-image: url('magnifying-glass.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0.5em;
+    border: 1px solid rgba(68, 68, 68, 0.5);
 }
