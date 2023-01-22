@@ -205,5 +205,26 @@ const secondPosition = document.getElementById("second-game");
 secondPosition.append(runnerUp)
 
 
+/************************************************************************************
+ * Extra: Add additional features and enhancements to the website
+ * Skills used: filter, input, search
+ */
 
+// 1. id = search-card 
+// 2. filter cards based on input search
+// 3. show card based what was input using event type 'input'
 
+function searchCardGame() {
+
+    var input = document.getElementById('search-input')
+    input.addEventListener('input', function() {
+        var searchWords = this.value.toLowerCase();
+        var filterGames = GAMES_JSON.filter(game => {
+            return game.name.toLowerCase().includes(searchWords);
+        });
+        deleteChildElements(gamesContainer);
+        addGamesToPage(filterGames)
+    });
+}
+
+searchCardGame()
